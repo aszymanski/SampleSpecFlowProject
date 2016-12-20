@@ -2,20 +2,23 @@
 using TechTalk.SpecFlow;
 using Xamarin.UITest;
 using Xamarin.UITest.Android;
+using Xamarin.UITest.iOS;
 
 namespace SampleSpecFlowProject.stepDefinitions
 {
     [Binding]
     public class CardValidationSteps
     {
-        AndroidApp app;
+        //AndroidApp app;
+        iOSApp app;
 
         [BeforeScenario]
         public void SetUp()
         {
-            app = ConfigureApp.Android
-                .ApkFile("D:/com.xamarin.example.creditcardvalidator.apk")
-                .StartApp();
+            app = ConfigureApp.iOS.StartApp();
+            //App = ConfigureApp.Android
+            //    .apkfile("d:/com.xamarin.example.creditcardvalidator.apk")
+            //    .startapp();
         }
 
         [Given(@"I open application")]
