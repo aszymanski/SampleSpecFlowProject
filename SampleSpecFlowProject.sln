@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.Droid",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator", "CreditCardValidator\CreditCardValidator.csproj", "{99A825A6-6F99-4B94-9F65-E908A6347F1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCardValidator.iOS", "CreditCardValidator.iOS\CreditCardValidator.iOS.csproj", "{90F3C584-FD69-4926-9903-6B9771847782}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,16 +61,6 @@ Global
 		{99A825A6-6F99-4B94-9F65-E908A6347F1E}.Release|iPhone.Build.0 = Release|Any CPU
 		{99A825A6-6F99-4B94-9F65-E908A6347F1E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{99A825A6-6F99-4B94-9F65-E908A6347F1E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{90F3C584-FD69-4926-9903-6B9771847782}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{90F3C584-FD69-4926-9903-6B9771847782}.Debug|iPhone.ActiveCfg = Debug|iPhone
-		{90F3C584-FD69-4926-9903-6B9771847782}.Debug|iPhone.Build.0 = Debug|iPhone
-		{90F3C584-FD69-4926-9903-6B9771847782}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
-		{90F3C584-FD69-4926-9903-6B9771847782}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
-		{90F3C584-FD69-4926-9903-6B9771847782}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{90F3C584-FD69-4926-9903-6B9771847782}.Release|iPhone.ActiveCfg = Release|iPhone
-		{90F3C584-FD69-4926-9903-6B9771847782}.Release|iPhone.Build.0 = Release|iPhone
-		{90F3C584-FD69-4926-9903-6B9771847782}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
-		{90F3C584-FD69-4926-9903-6B9771847782}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

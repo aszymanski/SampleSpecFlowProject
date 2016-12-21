@@ -2,7 +2,6 @@
 using TechTalk.SpecFlow;
 using Xamarin.UITest;
 using Xamarin.UITest.Android;
-using Xamarin.UITest.iOS;
 
 namespace SampleSpecFlowProject.stepDefinitions
 {
