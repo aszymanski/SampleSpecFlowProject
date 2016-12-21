@@ -9,16 +9,16 @@ namespace SampleSpecFlowProject.stepDefinitions
     [Binding]
     public class CardValidationSteps
     {
-        //AndroidApp app;
-        iOSApp app;
+        AndroidApp app;
+
 
         [BeforeScenario]
         public void SetUp()
         {
-            app = ConfigureApp.iOS.StartApp();
-            //App = ConfigureApp.Android
-            //    .apkfile("d:/com.xamarin.example.creditcardvalidator.apk")
-            //    .startapp();
+
+            app = ConfigureApp.Android
+                .ApkFile("d:/com.xamarin.example.creditcardvalidator.apk")
+                .StartApp();
         }
 
         [Given(@"I open application")]
